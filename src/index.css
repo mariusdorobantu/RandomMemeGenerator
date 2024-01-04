@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding: 30px 65px;
+}
+
+section {
+    padding-top: 60px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header,
+.form--btn {
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%)
+}
+
+.header--img {
+    max-width: 100%;
+    height: 35px;
+}
+
+.header--title {
+    margin-left: 8px;
+    font-size: 1.15em;
+}
+
+.header--subtitle {
+    display: flex;
+    margin-left: auto;
+    font-size: 0.74rem;
+}
+
+.header--title,
+.header--subtitle,
+.form--btn {
+    color: #fff;
+}
+
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 30px;
+}
+
+.form--input {
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+    height: 35px;
+    width: 100%;
+}
+
+.form--btn {
+    grid-column: 1 / -1;
+    font-family: 'Karla', sans-serif;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.meme--image {
+    max-width: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 25px;
+    border-radius: 50px;
+}
+
+.meme--container {
+    position: relative;
+}
+
+.meme--text {
+    margin: 50px 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
+
+h4 {
+    position:relative;
+}
+
+
+
+
